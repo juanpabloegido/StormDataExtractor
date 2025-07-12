@@ -1,0 +1,2 @@
+# run scraper each 10 min, log to file
+*/10 * * * * /usr/local/bin/python3 /app/scraper.py >> /var/log/cron.log 2>&1 
